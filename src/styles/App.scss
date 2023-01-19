@@ -1,0 +1,35 @@
+.App {
+  min-height: 100vh;
+  background: url("../assets/app-background.png");
+}
+
+.appContainer {
+  padding: calc((100vh - 573px) / 2) 10px 0 10px;
+}
+
+.appTitle {
+  font-family: 'Exo2.0', serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0 1px 1px #000000;
+  margin-bottom: 25px;
+}
+
+.cardsList {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1260px;
+  margin: 0 auto;
+  @media (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    .cardWrapper {
+      padding-bottom: 30px;
+    }
+  }
+}
