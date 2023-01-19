@@ -5,6 +5,9 @@
 
 .appContainer {
   padding: calc((100vh - 573px) / 2) 10px 0 10px;
+  @media (max-width: 1024px) {
+    padding: 50px;
+  }
 }
 
 .appTitle {

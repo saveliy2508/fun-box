@@ -7,7 +7,7 @@ export interface ICards {
     foodType: 'duck' | 'chicken' | 'fish';
     size: string;
     outOfStock: boolean;
-};
+}
 
 const cards: ICards[] = [
     {
